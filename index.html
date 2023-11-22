@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Conversor de moedas">
+    <title>Conversor de Moedas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Conversor de moedas!</h1>
+    <p>
+        <label for="valor-digitado">Digite o valor em real:</label>
+        <input type="number" id="valor-digitado"></input>
+        
+    </p>
+    <p>
+        <label for="cotacao-digitada">Digite a cotação do dólar:</label>
+        <input type="number" id="cotacao-digitada"></input>
+    </p>
+
+    <button onclick="conversor()">Ver resultado</button>
+
+    <p> Convertido para dólar: <span id="resultado"></span></p>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

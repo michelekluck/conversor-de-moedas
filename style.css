@@ -1,0 +1,15 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+p, label {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+button{
+    margin-left: 80px;
+}
